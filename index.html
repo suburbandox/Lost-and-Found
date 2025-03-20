@@ -22,8 +22,6 @@
 </head>
 
 <body>
-    <h1>this is a test</h1>
-    <img style="width: 100px;" src="images/IMG_8005 (1).jpg" alt="">
     <div class="container mt-4">
         <h5 style="display: inline;">clothing</h5>
         <select id="filterDropdown">
@@ -91,6 +89,7 @@
 
                 const anchorElement = document.createElement('a');
                 anchorElement.href = "images/3.jpg"
+                //.card-img-top
                 anchorElement.setAttribute("data-lightbox", "example-set")
                 anchorElement.setAttribute("data-title", row.root)
                 const imgElement = document.createElement("img");
